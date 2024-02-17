@@ -1,3 +1,4 @@
-import _ from "lodash";
+// eslint-disable-next-line import/extensions
+import last from './src/index.js';
 
-console.log(_.last(['one', 'two']));
+last(['one', 'two']);
