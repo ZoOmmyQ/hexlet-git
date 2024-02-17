@@ -1,3 +1,4 @@
-import _ from "lodash";
-
-console.log(_.last(['one', 'two']));
+export default (arr) => {
+    const last = arr[-1];
+    return last;
+};
